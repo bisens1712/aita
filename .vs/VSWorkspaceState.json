@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\public\\commitee"
+    "\\public\\commitee",
+    "\\public\\home",
+    "\\public\\program",
+    "\\public\\program\\keynote"
   ],
-  "SelectedNode": "\\public\\commitee\\committee.html",
+  "SelectedNode": "\\public\\program\\keynote\\keynote_speaker.html",
   "PreviewInSolutionExplorer": false
 }
