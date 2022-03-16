@@ -1006,77 +1006,6 @@
         <link rel="apple-touch-icon-precomposed" href="../image/nitlogo.png" />
         <meta name="msapplication-TileImage" content="../image/nitlogo.png" /> -->
 
-<style type="text/css">
-        h1{
-            font-size: 27px;
-            display:block;
-            width: 100%;
-            line-height: 100%;
-        }
-        h2{
-            font-size: 22px;
-            display: block;
-            line-height: 170%;
-        }
-        h3{
-            font-size: 18px;
-            display: block;
-            line-height: 120%;
-            margin-bottom: 5px;
-        }
-        .reqimg{
-            /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
-            position: absolute;
-            left: 2%;
-            top:1%;
-            width: 8%;
-            height: inherit;
-            display: inline-block;
-        }
-        .cstm{
-            color: #EEEEEE;
-            margin-top: 10px;
-        }
-            @media(max-width: 800px) {
-                h1{
-                    font-size: 20px;
-                }
-                h2{
-                    font-size: 16px;
-                }
-                h3{
-                    font-size: 12px;
-                }
-                .reqimg{
-                    display: block;
-                    position: relative;
-                    width: 15%;
-                    left: 42%;
-                    height: inherit;
-                }
-            }
-            @media(max-width: 600px) {
-                h1{
-                    font-size: 16px;
-                    line-height: 120%;
-                }
-                h2{
-                    font-size: 14px;
-                    line-height: 170%;
-                }
-                h3{
-                    font-size: 12px;
-                    line-height: 120%;
-                }
-                .reqimg{
-                    display: block;
-                    position: relative;
-                    width: 20%;
-                    left: 40%;
-                    height: inherit;
-                }
-            }
-    </style>
     <style type="text/css">
       h1 {
         font-size: 27px;
@@ -1098,15 +1027,33 @@
         margin-bottom: 5px;
       }
 
-      .reqimg {
-        /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
-        position: absolute;
-        left: 2%;
-        top: 1%;
-        width: 8%;
-        height: inherit;
-        display: inline-block;
-      }
+      .navbar-component{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reqimg{
+            /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
+            position: relative;
+            left: 0.25%;
+            top:5%;
+            width: 8%;
+            /* margin: 30px; */
+            height: inherit;
+            display: inline-block;
+        }
+
+        .main-logo{
+            flex-direction: row;
+            height: 100px;
+            width: 150px;
+            margin-left: 45%;
+            margin-right: 45%;
+            padding: 0.5%;
+        }
 
       .cstm {
         color: #EEEEEE;
@@ -1131,13 +1078,22 @@
           font-size: 12px;
         }
 
-        .reqimg {
-          display: block;
-          position: relative;
-          width: 15%;
-          left: 42%;
-          height: inherit;
-        }
+        .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 10%;
+                    left: 42%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
       }
 
         .cards > img {
@@ -1158,13 +1114,22 @@
                 font-size: 12px;
             }
 
-            .reqimg {
-                display: block;
-                position: relative;
-                width: 15%;
-                left: 42%;
-                height: inherit;
-            }
+            .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 10%;
+                    left: 42%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
         }
 
         .cards {
@@ -1202,13 +1167,22 @@
                 line-height: 120%;
             }
 
-            .reqimg {
-                display: block;
-                position: relative;
-                width: 20%;
-                left: 40%;
-                height: inherit;
-            }
+            .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 15%;
+                    left: 40%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
 
             .cards {
                 width: 85%;
@@ -1222,16 +1196,28 @@
 <body class="home page-template-default page page-id-83 custom-background nirvana-image-one caption-simple nirvana-menu-left" style="overflow-x: hidden;margin-top:0px;padding-top:0px;">
 
 
-    <div class="main-text" style="margin-top: 4px;">
+    <div class="main-text" style="margin-top: 14px;">
         <!-- style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  -->
+        <img src="../image/vammamlogo.png" class="main-logo">
+        <div class="navbar-component">
         <img src="../image/nitlogo.png" class="reqimg">
         <!-- <div class="text-center"> -->
-            <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">6th Prof. Vijaya Agarwala Memorial Inter National Conference on Microwave Absorbing Materials</h1>
-           <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">VAMMAN-2022</h1>
-           <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">24 - 25 August 2022</h2>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Organised by Dept. of Electronics & Communication Engineering</h3>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">National Institute of Technology Patna, India</h3>
+            <div class="navbar-headings">
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">6th Prof. Vijaya Agarwala Memorial Inter National Conference on Microwave Absorbing Materials</h1>
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">VAMMAM-2022</h1>
+                <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">24 - 25 August 2022</h2>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Jointly Organized by 
+                 </h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Common Research Technology Development Hub (CRTDH) for New Materials/Stealth Applications, Centre of Nanotechnology</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Indian Institute of Technology Roorkee Uttrakhand – 247667, INDIA</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">&</h3>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Department of ECE
+                 National Institute of Technology Patna, Patna – 800005, INDIA
+                 </h3>
         <!-- </div> -->
+    </div>
+        <img src="../image/iitrlogo.png" class="reqimg">
+    </div>
     </div>
 
     <div class="container" style="object-fit:fill;margin:0px;padding:0px;width:100%;">
@@ -1505,11 +1491,12 @@
 
                             <div></div>
 
+<!--                             <div class="gmail_default">
+                                <p><span style="color: #993300;"><strong>KEYNOTE SPEAKERS</strong></span></p>
                             <div class="gmail_default">
-                                <!--<p><span style="color: #993300;"><strong> SPEAKERKEYNOTES</strong></span></p>
+                                <p><span style="color: #993300;"><strong> SPEAKERKEYNOTES</strong></span></p>
 
-                                <div class="gmail_default">
-
+                                <div class="gmail_default">  -->
 
                                     <div class="cards">
                                         <span>
@@ -1639,7 +1626,7 @@
 
 
         </div>-->
-                            </div>
+                            </div> */
                         </div>
                     </div>
 
