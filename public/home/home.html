@@ -1006,77 +1006,6 @@
         <link rel="apple-touch-icon-precomposed" href="../image/nitlogo.png" />
         <meta name="msapplication-TileImage" content="../image/nitlogo.png" /> -->
 
-<style type="text/css">
-        h1{
-            font-size: 27px;
-            display:block;
-            width: 100%;
-            line-height: 100%;
-        }
-        h2{
-            font-size: 22px;
-            display: block;
-            line-height: 170%;
-        }
-        h3{
-            font-size: 18px;
-            display: block;
-            line-height: 120%;
-            margin-bottom: 5px;
-        }
-        .reqimg{
-            /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
-            position: absolute;
-            left: 2%;
-            top:1%;
-            width: 8%;
-            height: inherit;
-            display: inline-block;
-        }
-        .cstm{
-            color: #EEEEEE;
-            margin-top: 10px;
-        }
-            @media(max-width: 800px) {
-                h1{
-                    font-size: 20px;
-                }
-                h2{
-                    font-size: 16px;
-                }
-                h3{
-                    font-size: 12px;
-                }
-                .reqimg{
-                    display: block;
-                    position: relative;
-                    width: 15%;
-                    left: 42%;
-                    height: inherit;
-                }
-            }
-            @media(max-width: 600px) {
-                h1{
-                    font-size: 16px;
-                    line-height: 120%;
-                }
-                h2{
-                    font-size: 14px;
-                    line-height: 170%;
-                }
-                h3{
-                    font-size: 12px;
-                    line-height: 120%;
-                }
-                .reqimg{
-                    display: block;
-                    position: relative;
-                    width: 20%;
-                    left: 40%;
-                    height: inherit;
-                }
-            }
-    </style>
     <style type="text/css">
       h1 {
         font-size: 27px;
@@ -1098,15 +1027,33 @@
         margin-bottom: 5px;
       }
 
-      .reqimg {
-        /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
-        position: absolute;
-        left: 2%;
-        top: 1%;
-        width: 8%;
-        height: inherit;
-        display: inline-block;
-      }
+      .navbar-component{
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .reqimg{
+            /* style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  */
+            position: relative;
+            left: 0.25%;
+            top:5%;
+            width: 8%;
+            /* margin: 30px; */
+            height: inherit;
+            display: inline-block;
+        }
+
+        .main-logo{
+            flex-direction: row;
+            height: 100px;
+            width: 150px;
+            margin-left: 45%;
+            margin-right: 45%;
+            padding: 0.5%;
+        }
 
       .cstm {
         color: #EEEEEE;
@@ -1131,13 +1078,22 @@
           font-size: 12px;
         }
 
-        .reqimg {
-          display: block;
-          position: relative;
-          width: 15%;
-          left: 42%;
-          height: inherit;
-        }
+        .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 10%;
+                    left: 42%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
       }
 
         .cards > img {
@@ -1158,13 +1114,22 @@
                 font-size: 12px;
             }
 
-            .reqimg {
-                display: block;
-                position: relative;
-                width: 15%;
-                left: 42%;
-                height: inherit;
-            }
+            .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 10%;
+                    left: 42%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
         }
 
         .cards {
@@ -1202,13 +1167,22 @@
                 line-height: 120%;
             }
 
-            .reqimg {
-                display: block;
-                position: relative;
-                width: 20%;
-                left: 40%;
-                height: inherit;
-            }
+            .reqimg{
+                    display: block;
+                    position: relative;
+                    width: 15%;
+                    left: 40%;
+                    height: inherit;
+                }
+                .navbar-component{
+                    display: block;
+                    position: relative;
+                }
+                .main-logo{
+                    display: block;
+                    margin-left: 120px;
+                    margin-right: 120px;
+                }
 
             .cards {
                 width: 85%;
@@ -1222,16 +1196,28 @@
 <body class="home page-template-default page page-id-83 custom-background nirvana-image-one caption-simple nirvana-menu-left" style="overflow-x: hidden;margin-top:0px;padding-top:0px;">
 
 
-    <div class="main-text" style="margin-top: 4px;">
+    <div class="main-text" style="margin-top: 14px;">
         <!-- style="position: absolute; left: 20px; top: 20px; width: 140px; height: 140px;"  -->
+        <img src="../image/vammamlogo.png" class="main-logo">
+        <div class="navbar-component">
         <img src="../image/nitlogo.png" class="reqimg">
         <!-- <div class="text-center"> -->
-            <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">6th Prof. Vijaya Agarwala Memorial Inter National Conference on Microwave Absorbing Materials</h1>
-           <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">VAMMAN-2022</h1>
-           <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">24 - 25 August 2022</h2>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Organised by Dept. of Electronics & Communication Engineering</h3>
-           <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">National Institute of Technology Patna, India</h3>
+            <div class="navbar-headings">
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">6th Prof. Vijaya Agarwala Memorial Inter National Conference on Microwave Absorbing Materials</h1>
+                <h1 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">VAMMAM-2022</h1>
+                <h2 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">24 - 25 August 2022</h2>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Jointly Organized by 
+                 </h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Common Research Technology Development Hub (CRTDH) for New Materials/Stealth Applications, Centre of Nanotechnology</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Indian Institute of Technology Roorkee Uttrakhand – 247667, INDIA</h3>
+                 <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">&</h3>
+                <h3 style="font-style:normal;border-radius:50%;font-weight: bold;border-color:black;font-family:'Arial';font-weight:700" class="req text-center">Department of ECE
+                 National Institute of Technology Patna, Patna – 800005, INDIA
+                 </h3>
         <!-- </div> -->
+    </div>
+        <img src="../image/iitrlogo.png" class="reqimg">
+    </div>
     </div>
 
     <div class="container" style="object-fit:fill;margin:0px;padding:0px;width:100%;">
@@ -1347,7 +1333,7 @@
 							<!-- <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/iadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">International Advisory Committee</b></span></span></a></li> -->
 						  <li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"> 
 							  
-							  <a href="../commitee/nadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">National Advisory Committee</b></span></span></a></li><!--<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/tpc.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Technical Programme Committee</b></span></span></a></li>--><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/organising.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Organising Committee</b></span></span></a></li></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/student.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Student Committee</b></span></span></a></li></ul></li>
+							  <a href="../commitee/nadvisory.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Advisory Committee</b></span></span></a></li><!--<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/tpc.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Technical Programme Committee</b></span></span></a></li>--><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/organising.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Organising Committee</b></span></span></a></li></li><li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../commitee/student.html"><span><i class="_mi _before dashicons dashicons-groups" aria-hidden="true"></i><span><b style="font-weight:bold">Student Committee</b></span></span></a></li></ul></li>
                 <li id="menu-item-98" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-98">
                     <a href="#"><span><i class="_mi _before dashicons dashicons-format-standard" aria-hidden="true"></i><span><b style="font-weight:bold">Call for Papers</b></span></span></a>
                     <ul class="sub-menu">
@@ -1500,131 +1486,21 @@
                             <hr />
 
 
-                            <div style="clear:both;"></div>
+                            
 
 
-                            <div></div>
 
+                           <div class="gmail_default">
+                                
                             <div class="gmail_default">
-                                <!--<p><span style="color: #993300;"><strong>KEYNOTE SPEAKERS</strong></span></p>
-
-                                <div class="gmail_default">
-
-
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof_jacob_scharcanski.jpg" alt="">
-                                            <a href="mailto: jacobs@inf.ufrgs.br"> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
-
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Jacob Scharcanski</strong>
-                                            Professor, Department of Computer Science
-                                            Federal University of Rio Grande do Sul (UFRGS),
-                                            Brasil.
-                                            <br /> Tel.: (+55) (51) 3308-7128, Fax: (+55) (51) 3308-7308
-                                        </p><br />
-
-                                    </div>
+                                
 
 
 
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof_satish_chand.jpg" alt="">
-                                            <a href="mailto: schand@mail.jnu.ac.in"> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
 
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Satish Chand </strong>
-                                            Professor, School of Computer & Systems Sciences,
-                                            Jawaharlal Nehru University, New Delhi
-
-                                            <br /> Off. Phone 011-26738790
-                                            Residence: 011-26704794 Extn- 24
-
-                                        </p><br />
-                                    </div>
-
-                                    <hr />
-
-
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof rajeev srovastava.jpg" alt="">
-                                            <a href="mailto: schand@mail.jnu.ac.in"> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
-
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Rajeev Srivastava </strong>
-                                            Professor and Dean (Resource and Alumni Affairs)
-                                            Department of Computer Science and Engineering, IIT (BHU), Varanasi-221005
-
-
-                                            <br /> Off. Phone 011-26738790
-                                            Residence: 011-26704794 Extn- 24
-
-                                        </p><br />
-                                    </div>
-
-
-
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof neeraj sharma.jpg" alt="">
-                                            <a href="mailto: neeraj.bme@iitbhu.ac.in"> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
-
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Neeraj Sharma </strong>
-                                            Professor and Coordinator Design and Innovation Centre,
-                                            School of Bio-Medical Engineering, Indian Institute of Technology (BHU), Varanasi, India
-
-
-                                            <br /> 221005, Phone: +91-9235633730 (Mobile)
-
-                                        </p><br />
-                                    </div>
-                                    <hr />
-
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof ruchir gupta.jpg" alt="">
-                                            <a href="mailto: ruchirgupta@mail.jnu.ac.in"> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
-
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Ruchir Gupta </strong>
-                                            Professor and Dean School of Engineering
-                                            Centre: School of Engineering, Jawaharlal Nehru University, New Delhi
-
-                                            <br /> Off. Phone 011-26739285
-                                            Residence: 9425156958
-
-
-                                        </p><br />
-                                    </div>
-
-                                    <div class="cards">
-                                        <span>
-                                            <img src="prof ahmed esmail.jpg" alt="">
-                                            <a href="mailto: "> <i class="fa fa-envelope" style="font-size:24px"></i></a>
-                                        </span>
-
-                                        <p style="color: blue; text-align: left; font-size: 13px">
-                                            <i class="wp-svg-globe globe"></i><strong>Prof. Ahmed Esmail Shalan </strong>
-                                            BC Materials, Basque Center for Materials, Applications and Nanostructures, Martina Casiano, UPV/EHU Science Park, Barrio Sarriena s/n, Leioa 48940, Spain.
-                                            Central Metallurgical Research and Development Institute (CMRDI), P.O. Box 87, Helwan, Cairo 11421, Egypt.
-
-
-                                        </p><br />
-                                    </div>
-                                    <hr />
-
-
-                                </div>-->
-
-                                <!--<div class="cards" >
+                                </div>
+<!-- 
+                                <div class="cards" >
                           <p style="color:blue; text-align: left;"><i class="wp-svg-globe globe"></i>Dr. Takako Hashimoto, Professor & Vice President, Director of International Center, Chiba University, Japan</p>
               <img src="../image/iadvisory/Dr. Takako Hashimoto, Professor _ Vice President, Director of International Center, Chiba University, Japan.jpg" alt="" >
 
@@ -1640,8 +1516,8 @@
         <img src="../image/iadvisory/Dr. Takako Hashimoto, Professor _ Vice President, Director of International Center, Chiba University, Japan.jpg" alt="" >
 
 
-        </div>-->
-                            </div>
+        </div> -->
+                            </div> 
                         </div>
                     </div>
 
@@ -1671,17 +1547,17 @@
                                         <p>Professor, Follow IEEE, Indian Institute of Technology Roorkee, India</p>
                                     </div>
                                     <div class="mimage">
-                                        <img src="../image/keynote/prof_jacob_scharcanski.jpg">
+                                        <img src="../image/keynote/profkarthik.jpg">
                                     </div>
 
                                 </div>
                                 <div class="mcard">
                                     <div class="mtext">
                                         <strong>Prof. Dharmendra Singh</strong><br>
-                                        <p>Professor, SM IEEE, Indian Institute of Technology (BHU), Varanasi, India</p>
+                                        <p>Professor, SM IEEE, IIT Roorkee, India</p>
                                     </div>
                                     <div class="mimage">
-                                        <img src="../image/keynote/prof_satish_chand.jpg">
+                                        <img src="../image/keynote/dharmendra.jpg">
                                     </div>
 
                                 </div>
@@ -1750,6 +1626,8 @@
                                     <div class="mimage">
                                         <img src="../image/keynote/prof ahmed esmail.jpg">
                                     </div>
+
+                                    
 				<div class="mcard">
                                     <div class="mtext">
                                         <strong>Prof. Prashant Vasistha</strong><br>
